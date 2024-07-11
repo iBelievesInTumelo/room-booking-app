@@ -7,6 +7,6 @@ Instructions:
 - Activate your virtual environment
 - Install the requirements.txt file. eg pip install requirements.txt
 - Navigate in to the backend folder
-- run python manage.py to activate the server
+- run python manage.py runserver to activate the server
 
   
