@@ -1,0 +1,7 @@
+# Node Modules
+
+frontend/node_modules/
+
+# Ignore Database
+
+backend/db.sqlite3
