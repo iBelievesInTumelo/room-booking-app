@@ -2,6 +2,9 @@
 
 frontend/node_modules/
 
-# Ignore Database
+# Ignore Database and related files
 
-backend/db.sqlite3
+backend/*.sqlite3
+backend/auth/__pycache__/
+backend/users/__pycache__/
+backend/users/migrations/

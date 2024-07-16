@@ -90,7 +90,7 @@ export default {
 <div class="container">
   <div class="row">
 
-    <div class="col-6" id="bookings">
+    <div class="col-6 overflow-auto" id="bookings">
         <div class="justify-content-start" v-if="loggedIn == 'true'">
           <User @loggedOut="userLoggedOut"/>
           <UserBookings 
@@ -107,7 +107,7 @@ export default {
         </div>
     </div>
 
-    <div class="col-6 justify-content-center" id="rooms">
+    <div class="col-6 justify-content-center overflow-auto" id="rooms">
       <h4 class=" h4 text-center">Have a look at our range of rooms</h4>
       <RoomComponent 
       @update="updateComponent"/>
@@ -126,6 +126,9 @@ export default {
 }
 #rooms{
   background-color:#b3d1ff;
+}
+.col-6{
+  height: 800px;
 }
 
 </style>
