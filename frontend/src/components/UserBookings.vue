@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center" v-for="booking in bookings" :key="booking.id">
+    <div class="grid gap-3 text-center" v-for="booking in bookings" :key="booking.id">
         <p>Booking for Room: {{booking.room_id}}</p>
         <p>From: {{booking.booking_start}}</p>
         <p>To: {{booking.booking_end}}</p>
@@ -77,5 +77,6 @@ import axios from 'axios';
 </script>
 
 <style scoped>
+
 
 </style>
